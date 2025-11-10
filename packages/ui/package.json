@@ -17,8 +17,8 @@
     "dist"
   ],
   "scripts": {
-    "dev": "tsup src/index.ts --watch --format cjs,esm --dts",
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "clean": "rm -rf dist",
     "prepublishOnly": "pnpm build"
   },
