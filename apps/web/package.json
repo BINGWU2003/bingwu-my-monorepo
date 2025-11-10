@@ -11,7 +11,8 @@
   "dependencies": {
     "vue": "^3.5.24",
     "@bingwu-my-monorepo/shared": "workspace:*",
-    "@bingwu-my-monorepo/ui": "workspace:*"
+    "@bingwu-my-monorepo/ui": "workspace:*",
+    "@bingwu-my-monorepo/vue3-best-ui": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",
