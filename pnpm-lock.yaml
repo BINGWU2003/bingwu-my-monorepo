@@ -26,10 +26,10 @@ importers:
 
   apps/web:
     dependencies:
-      '@my-monorepo/shared':
+      '@bingwu-my-monorepo/shared':
         specifier: workspace:*
         version: link:../../packages/shared
-      '@my-monorepo/ui':
+      '@bingwu-my-monorepo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       vue:
@@ -66,7 +66,7 @@ importers:
 
   packages/ui:
     dependencies:
-      '@my-monorepo/shared':
+      '@bingwu-my-monorepo/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:

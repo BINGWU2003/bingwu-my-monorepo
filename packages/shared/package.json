@@ -1,5 +1,5 @@
 {
-  "name": "@my-monorepo/shared",
+  "name": "@bingwu-my-monorepo/shared",
   "version": "1.0.0",
   "description": "Shared utilities and helpers",
   "main": "./dist/index.js",

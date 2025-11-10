@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { formatDate, generateId } from "@my-monorepo/shared";
+import { formatDate, generateId } from "@bingwu-my-monorepo/shared";
 
 const currentDate = ref("");
 const uniqueId = ref("");

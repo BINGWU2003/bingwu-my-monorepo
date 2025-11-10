@@ -1,4 +1,4 @@
-import { generateId } from '@my-monorepo/shared';
+import { generateId } from '@bingwu-my-monorepo/shared';
 
 export interface ButtonProps {
   text: string;

@@ -1,5 +1,5 @@
 {
-  "name": "@my-monorepo/ui",
+  "name": "@bingwu-my-monorepo/ui",
   "version": "1.0.0",
   "description": "Shared UI components",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@my-monorepo/shared": "workspace:*"
+    "@bingwu-my-monorepo/shared": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
