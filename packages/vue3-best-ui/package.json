@@ -1,6 +1,6 @@
 {
   "name": "@bingwu-my-monorepo/vue3-best-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue3 Best UI",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
