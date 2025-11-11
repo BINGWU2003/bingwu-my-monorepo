@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist",
-    "clean": "rimraf dist",
+    "clean": "rimraf dist && rimraf node_modules",
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {

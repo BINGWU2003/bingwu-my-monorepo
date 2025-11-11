@@ -13,6 +13,18 @@
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@bingwu-my-monorepo/shared": [
+        "packages/shared/src/index.ts"
+      ],
+      "@bingwu-my-monorepo/ui": [
+        "packages/ui/src/index.ts"
+      ],
+      "@bingwu-my-monorepo/vue3-best-ui": [
+        "packages/vue3-best-ui/src/index.ts"
+      ]
+    }
   }
 }
