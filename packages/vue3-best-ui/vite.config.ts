@@ -11,9 +11,10 @@ export default defineConfig({
     copyDtsFiles: true,
     staticImport: true,
     clearPureImport: true,
-    include: ['src/**/*', 'index.ts']
+    include: ['src/**/*', 'index.ts'],
   })],
   build: {
+    sourcemap: false,
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'Vue3BestUI',
