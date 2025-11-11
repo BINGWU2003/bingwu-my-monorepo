@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
