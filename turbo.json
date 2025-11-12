@@ -16,13 +16,6 @@
       "cache": false,
       "persistent": true
     },
-    "@bingwu-my-monorepo/docs#dev": {
-      "dependsOn": [
-        "^build"
-      ],
-      "cache": false,
-      "persistent": true
-    },
     "dev": {
       "cache": false,
       "persistent": true

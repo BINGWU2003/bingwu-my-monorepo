@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "turbo run dev",
+    "dev:packages": "turbo run dev --filter=./packages/*",
     "dev:web": "turbo run dev --filter=@bingwu-my-monorepo/web",
+    "dev:web:watch": "turbo run dev --filter=./packages/* --filter=@bingwu-my-monorepo/web",
     "dev:docs": "turbo run dev --filter=@bingwu-my-monorepo/docs",
     "build": "turbo run build",
     "lint": "turbo run lint",
