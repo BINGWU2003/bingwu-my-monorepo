@@ -11,20 +11,20 @@
 </template>
 
 <script setup lang="ts">
-import type { InputProps, InputEmits } from "./types";
+import type { InputProps, InputEmits } from './types';
 
 const props = withDefaults(defineProps<InputProps>(), {
-  placeholder: "Input",
-  value: "",
+  placeholder: 'Input',
+  value: '',
 });
 const emit = defineEmits<InputEmits>();
 
 const handleInput = (event: Event) => {
-  emit("input", (event.target as HTMLInputElement).value);
+  emit('input', (event.target as HTMLInputElement).value);
 };
 
 const handleClick = () => {
-  emit("click", props.value);
+  emit('click', props.value);
 };
 </script>
 

@@ -4,8 +4,8 @@ interface InputProps {
 }
 
 interface InputEmits {
-  (e: "input", value: string): void;
-  (e: "click", value: string): void;
+  (e: 'input', value: string): void;
+  (e: 'click', value: string): void;
 }
 
 export type { InputProps, InputEmits };

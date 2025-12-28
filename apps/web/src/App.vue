@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
-import { formatDate, generateId } from "@bingwu-my-monorepo/shared";
-import { Button, Input } from "@bingwu-my-monorepo/vue3-best-ui";
-const currentDate = ref("");
-const uniqueId = ref("");
+import { ref, onMounted } from 'vue';
+import { formatDate, generateId } from '@bingwu-my-monorepo/shared';
+import { Button, Input } from '@bingwu-my-monorepo/vue3-best-ui';
+const currentDate = ref('');
+const uniqueId = ref('');
 
 onMounted(() => {
   currentDate.value = formatDate(new Date());
@@ -11,15 +11,15 @@ onMounted(() => {
 });
 
 const handleClick = () => {
-  console.log("Button clicked");
+  console.log('Button clicked');
 };
 
 const handleInput = (value: string) => {
-  console.log("Input value:", value);
+  console.log('Input value:', value);
 };
 
 const handleInputClick = () => {
-  console.log("Input clicked");
+  console.log('Input clicked');
 };
 </script>
 
@@ -29,12 +29,7 @@ const handleInputClick = () => {
     <p>Current Date: {{ currentDate }}</p>
     <p>Unique ID: {{ uniqueId }}</p>
     <Button text="Click me" @click="handleClick" />
-    <Input
-      placeholder="Input"
-      value="Hello"
-      @input="handleInput"
-      @click="handleInputClick"
-    />
+    <Input placeholder="Input" value="Hello" @input="handleInput" @click="handleInputClick" />
   </div>
 </template>
 

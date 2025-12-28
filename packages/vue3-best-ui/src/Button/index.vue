@@ -1,7 +1,9 @@
 <template>
   <div class="button">
-    <slot></slot>
-    <button @click="emit('click')">{{ props.text }} {{ id }} {{ date }}</button>
+    <slot />
+    <button @click="emit('click')">
+      {{ props.text }} {{ id }} {{ date }}
+    </button>
   </div>
 </template>
 
