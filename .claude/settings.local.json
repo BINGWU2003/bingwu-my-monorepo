@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(git -C \"d:\\\\code\\\\vue\\\\bingwu-my-monorepo\" log --oneline -20)"
+    ]
+  }
+}
