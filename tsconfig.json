@@ -17,13 +17,13 @@
     "baseUrl": ".",
     "paths": {
       "@bingwu-my-monorepo/shared": [
-        "packages/shared/src/index.ts"
+        "packages/shared/src"
       ],
       "@bingwu-my-monorepo/ui": [
-        "packages/ui/src/index.ts"
+        "packages/ui/src"
       ],
       "@bingwu-my-monorepo/vue3-best-ui": [
-        "packages/vue3-best-ui/src/index.ts"
+        "packages/vue3-best-ui/src"
       ]
     }
   }
