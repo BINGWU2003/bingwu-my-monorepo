@@ -3,7 +3,7 @@ type ButtonProps = {
 };
 
 type ButtonEmits = {
-  (e: "click"): void;
+  (e: 'click'): void;
 };
 
 export type { ButtonProps, ButtonEmits };

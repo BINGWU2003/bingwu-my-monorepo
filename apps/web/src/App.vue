@@ -8,6 +8,7 @@ const uniqueId = ref('');
 onMounted(() => {
   currentDate.value = formatDate(new Date());
   uniqueId.value = generateId();
+  console.log('currentDate', currentDate.value);
 });
 
 const handleClick = () => {
