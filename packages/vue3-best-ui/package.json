@@ -2,14 +2,12 @@
   "name": "@bingwu-my-monorepo/vue3-best-ui",
   "version": "1.0.2",
   "description": "Vue3 Best UI",
-  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.mjs"
     },
     "./style.css": "./dist/style.css"
   },
@@ -18,7 +16,7 @@
   ],
   "scripts": {
     "dev": "vite build --watch",
-    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist",
+    "build": "vite build",
     "clean": "rimraf dist && rimraf node_modules",
     "prepublishOnly": "pnpm build"
   },
