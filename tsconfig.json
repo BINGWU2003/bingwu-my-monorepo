@@ -2,29 +2,18 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "ESNext",
-    "lib": [
-      "ES2020"
-    ],
+    "lib": ["ES2020"],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@bingwu-my-monorepo/shared": [
-        "packages/shared/src"
-      ],
-      "@bingwu-my-monorepo/ui": [
-        "packages/ui/src"
-      ],
-      "@bingwu-my-monorepo/vue3-best-ui": [
-        "packages/vue3-best-ui/src"
-      ]
+      "@bingwu-my-monorepo/shared": ["packages/shared/src"],
+      "@bingwu-my-monorepo/ui": ["packages/ui/src"],
+      "@bingwu-my-monorepo/vue3-best-ui": ["packages/vue3-best-ui/src"]
     }
   }
 }
