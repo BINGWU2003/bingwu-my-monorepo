@@ -22,13 +22,12 @@
     "clean": "rimraf dist && rimraf node_modules",
     "prepublishOnly": "pnpm build"
   },
-  "peerDependencies": {
-    "@bingwu-my-monorepo/shared": "workspace:*"
-  },
   "devDependencies": {
-    "@bingwu-my-monorepo/shared": "workspace:*",
     "tsup": "^8.0.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@bingwu-my-monorepo/shared": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
