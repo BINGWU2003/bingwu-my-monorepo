@@ -18,12 +18,17 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "clean": "rimraf dist && rimraf node_modules",
     "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.18",
     "tsup": "^8.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^4.0.18"
   },
   "publishConfig": {
     "access": "public"

@@ -6,7 +6,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' }
+      { text: 'Guide', link: '/guide/' },
     ],
     sidebar: [
       {
@@ -14,9 +14,9 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/guide/' },
           { text: 'Shared Utils', link: '/guide/shared' },
-          { text: 'UI Components', link: '/guide/ui' }
-        ]
-      }
-    ]
-  }
+          { text: 'UI Components', link: '/guide/ui' },
+        ],
+      },
+    ],
+  },
 });
