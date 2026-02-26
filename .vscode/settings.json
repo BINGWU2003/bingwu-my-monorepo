@@ -21,7 +21,6 @@
   "explorer.fileNesting.patterns": {
     // 语法格式 -> "父文件": "子文件1, 子文件2"
     "package.json": ".npmrc,pnpm-lock.yaml,pnpm-workspace.yaml",
-    ".eslintrc.cjs": ".eslintignore",
     ".prettierrc.cjs": ".prettierignore"
   }
 }
