@@ -24,7 +24,7 @@ export default defineConfig({
       fileName: 'index',
       formats: ['es'],
     },
-    rollupOptions: {
+    rolldownOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
       external: ['vue', '@bingwu-my-monorepo/shared'],
       output: {

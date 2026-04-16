@@ -1,8 +1,8 @@
 packages:
   # 所有在 packages 目录下的包
-  - "packages/*"
+  - 'packages/*'
   # 所有在 apps 目录下的应用
-  - "apps/*"
+  - 'apps/*'
 
 catalog:
   # TypeScript
@@ -10,15 +10,15 @@ catalog:
 
   # Testing
   vitest: ^4.0.18
-  "@vitest/coverage-v8": ^4.0.18
+  '@vitest/coverage-v8': ^4.0.18
   happy-dom: ^20.7.0
 
   # Build - tsup
   tsup: ^8.0.0
 
   # Build - Vite 生态
-  vite: ^7.2.2
-  "@vitejs/plugin-vue": ^6.0.1
+  vite: ^8.0.0
+  '@vitejs/plugin-vue': ^6.0.5
   vite-plugin-dts: ^4.5.4
 
   # Vue 生态
@@ -29,8 +29,8 @@ catalog:
   sass-embedded: ^1.93.3
 
   # Node 类型 / 辅助
-  "@types/node": ^24.10.0
-  "@vue/tsconfig": ^0.8.1
+  '@types/node': ^24.10.0
+  '@vue/tsconfig': ^0.8.1
 
   # Docs
   vitepress: ^1.0.0
