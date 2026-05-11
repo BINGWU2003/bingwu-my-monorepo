@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
@@ -5,6 +6,15 @@ export default defineConfig({
   cacheDir: './node_modules/.vitepress-cache',
   title: 'My Monorepo Docs',
   description: 'Documentation for my monorepo project',
+  vite: {
+    resolve: {
+      alias: {
+        '@bingwu-my-monorepo/vue3-best-ui': fileURLToPath(
+          new URL('../../../packages/vue3-best-ui/src/index.ts', import.meta.url)
+        ),
+      },
+    },
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

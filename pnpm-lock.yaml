@@ -106,6 +106,10 @@ importers:
         version: 10.4.0(eslint@9.39.4(jiti@2.6.1))
 
   apps/docs:
+    dependencies:
+      '@bingwu-my-monorepo/vue3-best-ui':
+        specifier: workspace:*
+        version: link:../../packages/vue3-best-ui
     devDependencies:
       vitepress:
         specifier: 'catalog:'

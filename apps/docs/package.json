@@ -8,6 +8,9 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
+  "dependencies": {
+    "@bingwu-my-monorepo/vue3-best-ui": "workspace:*"
+  },
   "devDependencies": {
     "vitepress": "catalog:",
     "vue": "catalog:"
