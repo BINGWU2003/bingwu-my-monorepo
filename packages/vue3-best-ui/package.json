@@ -24,7 +24,7 @@
     "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
-    "vue": "^3.5.24"
+    "vue": "catalog:peer"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "catalog:",

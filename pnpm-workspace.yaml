@@ -34,3 +34,8 @@ catalog:
 
   # Docs
   vitepress: ^1.0.0
+
+catalogs:
+  # Peer dependencies
+  peer:
+    vue: ^3.0.0
