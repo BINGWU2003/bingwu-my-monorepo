@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  outDir: './dist',
+  cacheDir: './node_modules/.vitepress-cache',
   title: 'My Monorepo Docs',
   description: 'Documentation for my monorepo project',
   themeConfig: {
